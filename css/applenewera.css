@@ -1,0 +1,71 @@
+/*Erivaldo Bêhh
+applenewera*/
+
+
+body{
+background-color: #A9A9A9;
+}
+
+.txt{
+text-align: center;
+color: #FF0000;
+
+}
+
+.txth{
+text-align: center;
+color: navy;
+
+}
+/*O q Fazemos*/
+.txth1{
+text-align: center;
+color: #FFC125;
+
+}
+
+.prt1{
+background-color: #000066;
+color: #fff;
+text-align: justify
+}
+.prt2{
+background-color: #006600;
+color: #fff;
+text-align: justify
+}
+
+.prt3{background-color: #660000;
+color: #fff;
+text-align: justify
+}
+
+/*Sobre*/
+.sbr1{
+background-color: #006600;
+color:#fff;
+text-align: justify}
+
+.eqp{
+background-color: #6C7B8B;
+text-align: center;
+color: #000066;
+font-weight: bold;
+border: red solid 1px;
+}
+
+/*Rodapé*/
+.footer{
+background-color: #000;
+}
+
+/*formulario*/
+.img_form{
+text-align: center;
+}
+/*LOGIN*/
+.borda_iden{
+border: double 5px black;
+
+border-radius: 1px;
+}

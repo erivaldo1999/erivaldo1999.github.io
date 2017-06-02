@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title> Site Erivaldo </title>
+<!--css do bootstrap-->
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="css/font-awesome" rel="stylesheet">
+<link href="css/applenewera.css" rel="stylesheet" type="text/css">
+
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body class="container">
+<!--INICIO DO MENU -->
+
+
+<div class="navbar-wrapper">
+<div class="container">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header col-md-7">
+
+
+<!-- BOTÃO QUANDO FICA PEQUENO -->
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<!--FIM DO BOTÃO PEQUENO -->
+
+<a href="#"><img src="img/logo.png" width="15%">  </a> 
+</div>
+
+
+
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="action"><a href="index.html">Inicio</a></li>
+<li ><a href="#Sobre">Sobre</a></li>
+<li ><a href="#Equipe">Equipe</a></li>
+<li ><a href="#Contato">Contato</a></li>
+<li ><a href="blog.html">Blog</a></li>
+<li ><a href="login.html">Entrar</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--FIM DO MENU -->
+<br><br><br><br><br><br><br>
+
+
+<!-- INICIO NOVO POST -->
+
+<div class="row"> <!-- BOTÕES - USUÁRIO E POSTAGEM -->
+<br><br><br>
+<div class="col-lg-12">
+<ul class="nav nav-pills">
+<li role="presentation" class="btnform">
+	<a href="usuario.html">Gerenciar Postagens</a>
+</li>
+<li role="presentation" class="active">
+	<a href="novpost.html">Nova Postagem</a>
+</li>
+</ul>
+</div>
+</div>
+
+<!-- POST -->
+<div class="row">
+	<div class="col-lg-10 col-lg-offset-1">
+	<div class="panel panel-default">
+	<div class="panel-body">
+	
+	<!-- FORMULÁRIO DO NOVO POST -->
+	<legend> NOVA POSTAGEM </legend>
+	<form>
+	<div class="row">
+		
+	<div class="col-lg-6">
+	<input type="text" placeholder="TITULO" class="form-control">
+	</div>
+	
+	<div class="col-lg-4">
+	<select class="form-control">
+	<option selected>CATEGORIA</option>
+	<option> Produto </option>
+	<option> Lançamento </option>
+	<option> Promoção </option>
+	</select>
+	</div>
+
+
+	<div class="col-lg-2">
+	<select class="form-control">
+	<option selected>STATUS</option>
+	<option> PUBLICADO </option>
+	<option> RASCUNHO </option>
+	</select>
+	</div>
+	
+	<div class="col-lg-12">
+	<label> Imagem Destacada </label>
+	<input type="file" class="form-control">
+	</div>
+	
+	<textarea placeholder="SUA POSTAGEM AQUI" class="col-lg-12"></textarea>
+
+	</div><br>
+	<button class="btn btn-info btn-block">PUBLICADO</button>
+	</form>
+	
+</div><!-- 1 -->
+</div>
+</div>
+</div><!-- 4 -->
+<!-- FIM NOVO POST -->
+
+
+ 
+<!--Inicio do Rodapé-->
+<footer class="row footer">
+<div class="col-lg-4">
+<a href="index.html">
+<img src="img/logo.png" width="30%">
+</a>
+</div>
+<div class="col-lg-4">
+<br>
+Applenewera Desenvolvido por Eri Bêhh &copy; 2017
+</div>
+<div class="col-lg-4">
+<a href="#"> <img src="img/face.png" width="13%" alt="Facebook" title="Facebook"> </a>
+<a href="#"> <img src="img/Twitter.png" width="10%" alt="Twitter" title="Twitter"> </a>
+<a href="#"> <img src="img/snap.png" width="10%" alt="Snapchat" title="Snapchat"> </a>
+<a href="#"> <img src="img/zap.png" width="10%" alt="Whatsapp" title="Whatsapp"> </a>
+<a href="#"> <img src="img/insta.png" width="10%" alt="Instagram" title="Instagram"> </a>
+
+
+</div>
+
+</footer>
+<!--Fim do Rodapé-->
+<!-- jQuery(necessario para os plugins Javascript do Bootstrap)-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
